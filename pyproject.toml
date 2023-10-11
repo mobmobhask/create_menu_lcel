@@ -1,0 +1,25 @@
+[project]
+name = "create-menu-lcel"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "mobmob", email = "mmobmob2@gmail.com" }
+]
+dependencies = [
+    "langchain>=0.0.312",
+    "python-dotenv>=1.0.0",
+    "openai>=0.28.1",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
